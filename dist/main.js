@@ -1,6 +1,6 @@
 const countdown = document.querySelector('#countdown');
 // Set Launch Date in Miliseconds
-const launchDate = new Date('Jan 1, 2021 00:00:00').getTime();
+const launchDate = new Date('March 1, 2021 00:00:00').getTime();
 const interval = setInterval(function() {
   // Set Today' Date In MILISECONDS
   const now = new Date().getTime();
